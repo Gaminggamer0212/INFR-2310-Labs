@@ -71,10 +71,10 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /LAB03/Library
-/LAB02/My project/Library
+/LAB02/Library
 /LAB03/obj
-/LAB02/My project/obj
+/LAB02/obj
 /LAB03/UserSettings
-/LAB02/My project/UserSettings
+/LAB02/UserSettings
 /LAB03/Logs
-/LAB02/My project/Logs
+/LAB02/Logs
