@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PathController : MonoBehaviour
+public class PathController1 : MonoBehaviour
 {
     [SerializeField]
     public PathManager pathManager;
@@ -65,12 +65,16 @@ public class PathController : MonoBehaviour
         }
 
     }
-
+    
     private void OnTriggerEnter(Collider other)
     {
-        if (!other.gameObject.CompareTag("Wall"))
+        if (other.gameObject.CompareTag("Wall"))
         {
-            target = pathManager.GetNextTarget();
+            isWalking = false;
+            animator.SetBool("isWalking", false);
+            return;
         }
+        
+        target = pathManager.GetNextTarget();
     }
 }
