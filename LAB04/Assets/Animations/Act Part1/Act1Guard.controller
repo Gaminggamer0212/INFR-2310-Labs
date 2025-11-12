@@ -73,7 +73,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Sneak
     m_StateMachine: {fileID: -4523387670484327841}
-    m_Mask: {fileID: 0}
+    m_Mask: {fileID: 31900000, guid: 2d39b0a68f9f87842bea778f7c587eae, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
